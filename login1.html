@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login1</title>
+</head>
+<style>
+    #myvideo {
+        position: fixed;
+        height: auto;
+        width: auto;
+    }
+
+    .login {
+        text-align: center;
+
+        position: absolute;
+        color: white;
+        line-height: 50px;
+        top: 20%;
+        left: 35%;
+        border: 1px solid;
+
+
+
+
+    }
+
+    input {
+        width: 90%;
+        height: 30px;
+        border-radius: 5px;
+        
+
+    }
+    input:hover{
+        background-color: steelblue ;
+        opacity: 0.35;
+    }
+
+    #btn {
+        width: 130px;
+        height: 40px;
+
+        color: white;
+        background: rgb(24, 226, 176);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        border-radius: 3px;
+
+    }
+</style>
+
+<body>
+    <video autoplay loop muted id="myvideo">
+        <source src="/Background.mp4" type="video/mp4"> your HTML5 is not supporting VIDEO
+    </video>
+    <div class="login">
+        <h1 style="color: black;">Create Gmail. Account</h1>
+        <form action="">
+            <!-- <label for="user name"> username:</label><br>-->
+            <input type="text" placeholder="Full name"><br>
+            <!--<label for="password"> password:</label><br>-->
+            <input type="password" placeholder="Contact Number"><br>
+            <input type="text" placeholder="Enter Email Id ">
+            <!--<a href="Sign Up.html" style="font-size: 20px;"> No Account?| Signup</a> <br>-->
+            <input type="submit" name="Reset" value="Reset" id="btn">
+            <input type="submit" name="Submit" value="submit" id="btn">
+        </form>
+    </div>
+</body>
+
+</html>
